@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
-using System.Reflection;
 
 namespace FirstHttpServer.Controllers
 {
@@ -19,7 +14,6 @@ namespace FirstHttpServer.Controllers
             StreamReader io = new StreamReader("wwwroot/data.json");
             string json = io.ReadToEnd();
             listOfPeople = JsonConvert.DeserializeObject<List<People>>(json);
-            //get data
         }
 
         // GET api/values
@@ -33,25 +27,9 @@ namespace FirstHttpServer.Controllers
         [HttpGet("{id}")]
         public People Get(string id)
         {
-            return listOfPeople.Find(people => (people.Id).Equals(id));
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            People currentMan = listOfPeople.Find(people => (people.Id).Equals(id));
+            currentMan.ShowAge = true;
+            return currentMan;
         }
     }
 
@@ -60,9 +38,11 @@ namespace FirstHttpServer.Controllers
         public string Name { get; set; }
         public string Age { get; set; } 
         public string Sex { get; set; }
-        public bool Costil = false;
+        [JsonIgnore]
+        public bool ShowAge = false;
+        public bool ShouldSerializeAge() {
+            return ShowAge;
+        }
     }
-
-    
 }
 
