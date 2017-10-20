@@ -1,0 +1,11 @@
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\bin\Debug\netcoreapp2.0\FirstHttpServer.deps.json
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\bin\Debug\netcoreapp2.0\FirstHttpServer.runtimeconfig.json
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\bin\Debug\netcoreapp2.0\FirstHttpServer.runtimeconfig.dev.json
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\bin\Debug\netcoreapp2.0\FirstHttpServer.dll
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\bin\Debug\netcoreapp2.0\FirstHttpServer.pdb
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\obj\Debug\netcoreapp2.0\FirstHttpServer.csprojResolveAssemblyReference.cache
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\obj\Debug\netcoreapp2.0\FirstHttpServer.csproj.CoreCompileInputs.cache
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\obj\Debug\netcoreapp2.0\FirstHttpServer.AssemblyInfoInputs.cache
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\obj\Debug\netcoreapp2.0\FirstHttpServer.AssemblyInfo.cs
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\obj\Debug\netcoreapp2.0\FirstHttpServer.dll
+C:\Users\Ноутбук\Desktop\WebAndNet\FirstHttpServer\FirstHttpServer\obj\Debug\netcoreapp2.0\FirstHttpServer.pdb
